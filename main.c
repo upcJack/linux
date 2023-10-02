@@ -27,15 +27,6 @@ void operate(){
             printf("格式化成功\n");
 
 		}
-		else if(!strcmp(opration, "delfile"))
-		{
-			printf("请输入想要删除文件的inode\n");
-			int blockNo;
-			scanf("%d", &blockNo);
-			fileSystem_free(blockNo);
-			printf("inode:%d已删除\n",blockNo);
-
-		}
 		else if(!strcmp(opration, "write"))
 		{
 			printf("请输入您想要写入的字符串，长度小于2000\n");
