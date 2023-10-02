@@ -6,8 +6,9 @@
 #include"SuperBlock.h"
 #include"misc.h"
 
-#define BLOCK_SIZE 256
-#define NUM_BLOCKS 1024
+#define BLOCK_SIZE 64
+#define NUM_BLOCKS 256
+
 // 每个块的指针
 #define POINTERS_PER_BLOCK ((BLOCK_SIZE)/(sizeof(int)))
 
