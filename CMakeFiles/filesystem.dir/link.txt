@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/filesystem.dir/Disk.c.o CMakeFiles/filesystem.dir/FileSystem.c.o CMakeFiles/filesystem.dir/main.c.o  -o filesystem 
